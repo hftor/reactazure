@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 export class RepoContainer extends Component {
   render() {
     return (
-      <div>
+      <li>
         {this.props.repo.language}
-      </div>
+      </li>
     );
   }
 }

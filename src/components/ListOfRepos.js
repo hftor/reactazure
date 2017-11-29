@@ -21,7 +21,7 @@ export class ListOfRepos extends React.Component {
     }
   render() {
     return (
-      <div>{this.state.repos}</div>
+      <ul>{this.state.repos}</ul>
     );
   }
 }
