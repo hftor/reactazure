@@ -1,10 +1,10 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+  text-align: center;
 }
 
 .App-header {
@@ -12,10 +12,31 @@
   height: 150px;
   padding: 20px;
   color: white;
+  text-align: center;
 }
 
-.App-intro {
-  font-size: large;
+.List-of-repos{
+  text-align: left;
+  list-style-type: none;
+  float: right;
+  width: 50%;
+}
+
+.Avatar-image{
+  border-radius: 50%;
+  height: 200px;
+}
+
+.column {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @keyframes App-logo-spin {

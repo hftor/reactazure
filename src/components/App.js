@@ -3,7 +3,6 @@ import logo from '../resources/logo.svg';
 import '../css/App.css';
 import {Avatar} from './Avatar.js'
 import {ListOfRepos} from './ListOfRepos.js'
-//import {AvatarContainer} from './AvatarContainer.js'
 
 class App extends Component {
   render() {

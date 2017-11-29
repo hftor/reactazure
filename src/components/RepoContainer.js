@@ -5,6 +5,7 @@ export class RepoContainer extends Component {
     return (
       <li>
         {this.props.repo.language}
+        {this.props.repo.name}
       </li>
     );
   }
