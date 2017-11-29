@@ -1,5 +1,6 @@
 import React from 'react';
 import api from '../utils/gitApi.js';
+import {RepoContainer} from './RepoContainer.js'
 
 export class ListOfRepos extends React.Component {
   constructor(props) {
@@ -12,9 +13,7 @@ export class ListOfRepos extends React.Component {
       .then(res => {
         let repos = res.map((repo) => {
           return(
-            <div key={repo.id}>
-              {repo.language}
-            </div>
+            <RepoContainer key={repo.id} repo={repo}/>
           )
         })
         this.setState({ repos : repos });
