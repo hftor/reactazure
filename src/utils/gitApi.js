@@ -8,7 +8,7 @@ module.exports = {
      });
    },
    getRepos: function (user) {
-     return axios.get('https://api.github.com/users/' + user)
+     return axios.get('https://api.github.com/users/' + user + '/repos')
        .then(function (response) {
          return response.data;
       });

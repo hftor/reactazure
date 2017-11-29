@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../resources/logo.svg';
 import '../css/App.css';
 import {Avatar} from './Avatar.js'
+import {ListOfRepos} from './ListOfRepos.js'
 //import {AvatarContainer} from './AvatarContainer.js'
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <Avatar userName='hftor'/>
+        <ListOfRepos userName='hftor'/>
       </div>
     );
   }
